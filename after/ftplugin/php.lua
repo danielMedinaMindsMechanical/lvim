@@ -4,7 +4,7 @@ local dap = require('dap')
 dap.adapters.php = {
   type = 'executable',
   command = 'node',
-  args = { '/home/bdinh/.local/share/nvim/mason/packages/php-debug-adapter/extension/out/phpDebug.js' }
+  args = { '/home/daniel/.local/share/lvim/mason/packages/php-debug-adapter/extension/out/phpDebug.js' }
 }
 
 dap.configurations.php = {
